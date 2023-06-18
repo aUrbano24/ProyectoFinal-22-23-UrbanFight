@@ -1,0 +1,59 @@
+article {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 40px;
+    background: #fff;
+}
+
+article p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+main {
+    background: white;
+}
+
+#cb-notepatch {
+    margin-top: 40px;
+}
+
+td, th {
+    text-align: center;
+    margin: auto;
+}
+
+.cardPatchnotes {
+    margin-top: 100px;
+}
+
+#mainPatchnotes {
+    margin-top: 270px;
+}
+
+@media screen and (max-width: 720px) {
+    main {
+        margin-top: 158px;
+
+    }
+    .card *
+    {
+        max-width: 25rem;
+
+    }
+    .card img{
+        max-width: 25rem;
+        max-height: 180px;
+    }
+    .cardPatchnotes {
+        max-width: 25rem;
+    }
+}
+@media screen and (max-width: 350px) {
+
+    /* .card img{
+        max-width: 250px;
+        max-height: 150px;
+    } */
+}
