@@ -3,7 +3,7 @@ Proyecto final de grado 2022-2023
 
 ## Índice
 
-1. [Stack](#STACK)
+1. [Project requirements](#Project requirements)
 2. [Roadmap](#ROADMAP)
 3. [Uso](#uso)
 4. [Contribución](#contribución)
