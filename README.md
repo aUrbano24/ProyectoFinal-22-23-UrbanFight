@@ -170,3 +170,6 @@ Proyecto final de grado 2022-2023
 
 Video Demostrativo explicando la mayoria de las funciones de la web.
 https://youtu.be/hjQDniRGRbo
+
+Exposición:
+https://drive.google.com/file/d/1WWuOjxI8q9eLND5EZu1waRgMsbWRexvz/view?usp=sharing
