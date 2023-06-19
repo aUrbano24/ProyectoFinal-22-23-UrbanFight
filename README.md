@@ -88,7 +88,7 @@ Proyecto final de grado 2022-2023
  |-------------|-------------|-------------|
  | JQuery      | PHP          | AWS        |
  | SASS        | MySQL        | GIT        |
- | Kaboom      |              | Photoshop  |
+ | Kaboom      | Laravel      | Photoshop  |
  | JS          |              | Otros      |
 <h2 align="center">📈📝Roadmap</h2>
 
