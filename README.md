@@ -5,7 +5,7 @@ Proyecto final de grado 2022-2023
 1. [Project requirements](#project-requirements)
 2. [Technologies Used](#technologies-used)
 3. [Roadmap Game](#roadmap-game)
-4. [Explainer Video](#explainer-video)
+4. [Explainer Video y Exposition](#explainer-video)
 
 
 
