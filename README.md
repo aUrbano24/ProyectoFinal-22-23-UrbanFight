@@ -151,22 +151,22 @@ Proyecto final de grado 2022-2023
   - [x] Añadir musica de juego de forma aleatoria.
  
  - [x] Versión 5.0
-  - [x] Arreglar bug declaración de ganador.
-  - [x] Arreglar bug cambiar dirección jugador en el aire.
-  - [x] Arreglar bug finalización de partida con contador.
-  - [x] Parar movimiento cuando se termine el contador.
-  - [x] Arreglar bug a la hora de hacer animación de muerte.
-  - [x] Posibilidad de cambiar estadisticas sincronizadas con la base de datos.
-  - [x] Ver hitbox en modo admin.
-  - [x] Arreglar bug al correr con el mando.
+    - [x] Arreglar bug declaración de ganador.
+    - [x] Arreglar bug cambiar dirección jugador en el aire.
+    - [x] Arreglar bug finalización de partida con contador.
+    - [x] Parar movimiento cuando se termine el contador.
+    - [x] Arreglar bug a la hora de hacer animación de muerte.
+    - [x] Posibilidad de cambiar estadisticas sincronizadas con la base de datos.
+    - [x] Ver hitbox en modo admin.
+    - [x] Arreglar bug al correr con el mando.
 
  - [x] Versión 6.0
-  - [x] Generar avatares para los personajes
-  - [x] Mejorar visualmente selector de personajes.
-  - [x] Mostrar estadísticas en el selector de personajes.
-  - [x] Posibilidad de resetear selección.
-  - [x] Botón para volver a jugar partida.
-  - [x] Botón para salir de la partida.
+    - [x] Generar avatares para los personajes
+    - [x] Mejorar visualmente selector de personajes.
+    - [x] Mostrar estadísticas en el selector de personajes.
+    - [x] Posibilidad de resetear selección.
+    - [x] Botón para volver a jugar partida.
+    - [x] Botón para salir de la partida.
 
  
 
