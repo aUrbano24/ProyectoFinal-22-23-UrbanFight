@@ -4,7 +4,7 @@ Proyecto final de grado 2022-2023
 ## Índice
 
 1. [Project requirements](#PROJECT REQUIREMENTS)
-2. [Roadmap](#ROADMAP)
+2. [Roadmap Game](#ROADMAP)
 3. [Uso](#uso)
 4. [Contribución](#contribución)
 5. [Licencia](#licencia)
@@ -94,31 +94,30 @@ Proyecto final de grado 2022-2023
  | Kaboom      | Laravel      | Photoshop  |
  | JS          |              | Otros      |
  
-<h2 align="center">📈📝Roadmap</h2>
+<h2 align="center">📈📝Roadmap Game</h2>
 
 - [x] Versión 1.0
-  - [x] Desarrollar Figma
-  - [x] <s> Crear base de datos </s>
-  - [x] Crear interfaz básica
+  - [x] Crear base de datos.
+  - [x] Crear interfaz básica.
 
 - [x] Versión 2.0 
   - [x] Estructurar desarrollo del juego.
-  - [x] Generar ViewPort
-  - [x] Diseñar Personaje principal
-  - [x] Diseñar mapa principal
-  - [x] Cargar Elementos audivisuales
-  - [x] Crear Elementos en juego
-  - [x] Desarrollar animaciones
+  - [x] Generar ViewPort.
+  - [x] Diseñar Personaje principal.
+  - [x] Diseñar mapa principal.
+  - [x] Cargar Elementos audivisuales.
+  - [x] Crear Elementos en juego.
+  - [x] Desarrollar animaciones.
   - [x] Establecer animación de correr.
   - [x] Establecer animación de salto.
   - [x] Establecer animación de muerte.
   - [x] Establecer animación de ataque.
   - [x] Establecer animación de personaje quieto.
   - [x] Desarrollar interfaz de juego.
-  - [x] Generar movimientos básicos
-  - [x] Establecer gravedad y suelo
-  - [x] Establecer barras de vida
-  - [x] Establecer contador  
+  - [x] Generar movimientos básicos.
+  - [x] Establecer gravedad y suelo.
+  - [x] Establecer barras de vida.
+  - [x] Establecer contador.  
 
 - [x] Versión 3.0
   - [x] Establecer hitbox.
@@ -165,7 +164,9 @@ Proyecto final de grado 2022-2023
   - [x] Mostrar estadísticas en el selector de personajes.
   - [x] Posibilidad de resetear selección.
   - [x] Botón para volver a jugar partida.
-  - [x] Botón para salir de la partida.  
+  - [x] Botón para salir de la partida.
+
+ 
 
  
   
