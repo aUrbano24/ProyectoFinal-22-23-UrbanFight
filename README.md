@@ -168,6 +168,8 @@ Proyecto final de grado 2022-2023
     - [x] Botón para salir de la partida.
  
    <h2 align="center">Data Base</h2>
+   ![image](https://github.com/aUrbano24/ProyectoFinal-22-23-UrbanFight/assets/91953243/b2c135cb-104c-4691-9890-9c02190693f8)
+
   <h2 align="center">Explainer Video</h2>
 
 Video Demostrativo explicando la mayoria de las funciones de la web.
