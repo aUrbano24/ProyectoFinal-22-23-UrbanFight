@@ -2,7 +2,7 @@
 Proyecto final de grado 2022-2023
 
 ## Índice
-1. [Requisitos del proyecto](##Project requirements)
+1. [Requisitos del proyecto](##Project)
 2. [Technologies Used](#Technologies)
 3. [Roadmap](#roadmap)
 
