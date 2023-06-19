@@ -8,8 +8,8 @@ Proyecto final de grado 2022-2023
 3. [Uso](#uso)
 4. [Contribución](#contribución)
 5. [Licencia](#licencia)
-
-📄Project requirements📄
+6. 
+<h2 align="center">📄Project requirements📄</h2>
 -----------------
 - [x] 💻**Desarrollo Web en Entorno Cliente**💻
 	- [x] Requisitos Básicos
