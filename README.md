@@ -8,7 +8,8 @@ Proyecto final de grado 2022-2023
 3. [Uso](#uso)
 4. [Contribución](#contribución)
 5. [Licencia](#licencia)
-6. 
+
+
 <h2 align="center">📄Project requirements📄</h2>
 -----------------
 - [x] 💻**Desarrollo Web en Entorno Cliente**💻
@@ -45,12 +46,17 @@ Proyecto final de grado 2022-2023
  
 	- [ ] Requisitos Adicionales
  		- [x] Uso de Breeze (con Tailwind CSS) o Jetstream (con Tailwind CSS o Bootstrap), además de aquellos aspectos del framework que completen los contenidos impartidos y amplíen la funcionalidad de la aplicación.
- 		- [ ] Correcta utilización del lenguaje.
+ 		- [x] Correcta utilización del lenguaje.
  		- [ ] Utilización de componentes dinámicos basados en Vue.js y Axios.js para la comunicación asíncrona en background.
 
 - [x] 🚀**Despliegue de Aplicaciones Web**🚀
+
+    - [x] Requisitos Básicos
  		- [x] La aplicación web deberá ser accesible desde internet, es decir, no podrá estar desplegada en maquinas locales.
- 		- [x] Se valorá positivamente que el SGBD utilizado por la aplicación web este alojado en una maquina distinta a la máquina donde este desplegada la aplicación web.
+ 		
+ 	- [x] Requisitos Adicionales	
+ 	    - [x] Se valorá positivamente que el SGBD utilizado por la aplicación web este alojado en una maquina distinta a la máquina donde este desplegada la aplicación web.
+ 		- [x] Baleanceador de carga.
  
 - [x] 🌈**Diseño de Interfaces Web**🌈
 	- [x] Crear Prototipo en Figma
@@ -79,9 +85,6 @@ Proyecto final de grado 2022-2023
 	- [x] Comentar, documentar y explicar el código en inglés.
 	- [ ] Realizar la exposición en inglés. Si el alumn@ se cansa, siempre podrá expresarse en español, con la idea de volver a expresarse en inglés nada más tenga la oportunidad.
  		
-
-
-
  📚Technologies Used
 -----------------
  | **Fronted** | **Backend** | **Others** |
@@ -90,17 +93,81 @@ Proyecto final de grado 2022-2023
  | SASS        | MySQL        | GIT        |
  | Kaboom      | Laravel      | Photoshop  |
  | JS          |              | Otros      |
+ 
 <h2 align="center">📈📝Roadmap</h2>
+- [x] Versión 1.0
+  - [x] Desarrollar Figma
+  - [x] <s> Crear base de datos </s>
+  - [x] Crear interfaz básica
 
-- [ ] Versión 1.0
-  - [x] Característica A
-  - [ ] <s> Característica B </s>
-  - [ ] Característica C
+- [x] Versión 2.0 
+  - [x] Estructurar desarrollo del juego.
+  - [x] Generar ViewPort
+  - [x] Diseñar Personaje principal
+  - [x] Diseñar mapa principal
+  - [x] Cargar Elementos audivisuales
+  - [x] Crear Elementos en juego
+  - [x] Desarrollar animaciones
+  - [x] Establecer animación de correr.
+  - [x] Establecer animación de salto.
+  - [x] Establecer animación de muerte.
+  - [x] Establecer animación de ataque.
+  - [x] Establecer animación de personaje quieto.
+  - [x] Desarrollar interfaz de juego.
+  - [x] Generar movimientos básicos
+  - [x] Establecer gravedad y suelo
+  - [x] Establecer barras de vida
+  - [x] Establecer contador  
 
-- [ ] Versión 2.0
-  - [ ] Característica D
-  - [ ] Característica E
-  - [ ] Característica F
+- [x] Versión 3.0
+  - [x] Establecer hitbox.
+  - [x] Detectar colisiones y golpes.
+  - [x] Animar barra de vida.
+  - [x] Declarar ganador.
+  - [x] Desarrollar salto.
+  - [x] Detectar cuando el personaje esta en el suelo.
+  - [x] Establecer reseteo de salto.
+  - [x] Voltear animacion al correr.
+  - [x] Correguir Hitbox.
+  - [x] Establecer empate.
+  - [x] Desabilitar ataque en ciertos puntos del gameplay.
+  - [x] Controlar la presión de muchas teclas a la vez.
+
+- [x] Versión 4.0
+  - [x] Desarrollar 5 personajes en total.
+  - [x] Crear selector de personajes básico.
+  - [x] Generar estadisticas adicionales a los personajes.
+  - [x] Sincronizar estadísticas con la base de datos.
+  - [x] Sincronizar mapa con la base de datos
+  - [x] Sincronizar Sprites con la base de datos.
+  - [x] Establecer cantidad de sprite a cada personaje de manera automática.
+  - [x] Funcionalidad de un mando con el juego.
+  - [x] Añadir un alcance de ataque al personaje.
+  - [x] Añadir escala para tamaño del personaje.
+  - [x] Añadir sonidos al ataque.
+  - [x] Añadir sonidos al salto.
+  - [x] Añadir musica de juego de forma aleatoria.
+ 
+ - [x] Versión 5.0
+  - [x] Arreglar bug declaración de ganador.
+  - [x] Arreglar bug cambiar dirección jugador en el aire.
+  - [x] Arreglar bug finalización de partida con contador.
+  - [x] Parar movimiento cuando se termine el contador.
+  - [x] Arreglar bug a la hora de hacer animación de muerte.
+  - [x] Posibilidad de cambiar estadisticas sincronizadas con la base de datos.
+  - [x] Ver hitbox en modo admin.
+  - [x] Arreglar bug al correr con el mando.
+
+ - [x] Versión 6.0
+  - [x] Generar avatares para los personajes
+  - [x] Mejorar visualmente selector de personajes.
+  - [x] Mostrar estadísticas en el selector de personajes.
+  - [x] Posibilidad de resetear selección.
+  - [x] Botón para volver a jugar partida.
+  - [x] Botón para salir de la partida.  
+
+ 
+  
 
 
 Video Demostrativo explicando la mayoria de las funciones de la web.
