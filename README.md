@@ -5,6 +5,7 @@ Proyecto final de grado 2022-2023
 1. [Requisitos del proyecto](#project-requirements)
 2. [Technologies Used](#technologies-used)
 3. [Roadmap Game](#roadmap-game)
+4. [Explainer Video](#explainer-video)
 
 
 
@@ -164,12 +165,8 @@ Proyecto final de grado 2022-2023
     - [x] Posibilidad de resetear selección.
     - [x] Botón para volver a jugar partida.
     - [x] Botón para salir de la partida.
-
  
-
- 
-  
-
+  <h2 align="center">Explainer Video</h2>
 
 Video Demostrativo explicando la mayoria de las funciones de la web.
 https://youtu.be/hjQDniRGRbo
