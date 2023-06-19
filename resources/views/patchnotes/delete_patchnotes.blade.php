@@ -31,7 +31,7 @@
                         @csrf
                         @method('DELETE')
                         <button class="btn btn-danger">@lang('public.Eliminar')</button>
-                        <a href="{{route("notesIndex")}}" class="btn btn-info"><span class="far fa-plus-circle">@lang('public.regresar')</a>
+                        <a href="{{route("notesIndex")}}" class="btn btn-info">@lang('public.regresar')</a>
                    </form>
                   </div>
             </p>

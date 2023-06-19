@@ -19,7 +19,6 @@ class FightersController extends Controller
         try {
             $fighters = Fighter::findOrFail($id);
             return view("fighters/edit_fighters", compact('fighters'));
-            print_r($fighters);
 
         } catch (\Illuminate\Database\Eloquent\ModelNotFoundException $e) {
             abort(404); // Redirige a la página 404 personalizada

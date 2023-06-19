@@ -154,6 +154,7 @@ export function createHealthBar(content, width, height, posX, posY, isFlipped) {
 }
 
 //CREAR GOLPES Y REDUCION DE VIDA DE LOS JUGADORES
+
 export function handleCollision(defender, player1, player2, healthBar, Duration, easingFunction, gameOver, countInterval, winningText, data_fighter1, data_fighter2) {
     console.log(defender)
     return () => {
@@ -162,23 +163,25 @@ export function handleCollision(defender, player1, player2, healthBar, Duration,
         }
         const attackEnemy = parseFloat(data_fighter2.match(/AttackDamage: ([\d.]+)/)[1]);
         const defense = parseFloat(data_fighter1.match(/Defense: ([\d.]+)/)[1]);
+        play("soundSword");
         if (defender.health > 0) {
-          defender.health -= (attackEnemy - defense);
-          console.log(defender.health);
-          if (defender.health < 0)
-                defender.health = 0;
+            defender.health -= (attackEnemy - defense);
+            console.log(defender.health);
+            if (defender.health < 0)
+                    defender.health = 0;
 
-          tween(healthBar.width, defender.health, Duration, (val) => {
-            healthBar.width = val;
-          }, easingFunction);
-        }
+            tween(healthBar.width, defender.health, Duration, (val) => {
+                healthBar.width = val;
+            }, easingFunction);
+            }
 
-        if (defender.health === 0) {
-          clearInterval(countInterval);
-          declareWinner(winningText, player1, player2);
-          gameOver = true;
-        }
-      };
+            if (defender.health === 0) {
+            play("soundYouWin");
+            clearInterval(countInterval);
+            declareWinner(winningText, player1, player2);
+            gameOver = true;
+            }
+        };
 }
 
 

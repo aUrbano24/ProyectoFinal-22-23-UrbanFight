@@ -136,7 +136,6 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                            <p>{{$item->title}}</p>
                             @if (($item->image !== null))
                                 <img src="{{ asset($item->image) }}" class="card-img-top" alt="...">
                             @endif
@@ -177,7 +176,6 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                <p>{{$item->title}}</p>
                                 @if (($item->image !== null))
                                     <img src="{{ asset($item->image) }}" class="card-img-top" alt="...">
                                 @endif

@@ -6,6 +6,16 @@ import { loadViewPort } from "./viewPort";
 
 let name_fighter1, name_fighter2, data_fighter1, data_fighter2, dataSprites_fighter1, dataSprites_fighter2, dataBody_fighter1, dataBody_fighter2, map, scaleMap;
 loadViewPort();
+//cargar sonidos
+
+loadSound("music", "sounds/music_game.mp3");
+loadSound("music2", "sounds/music_game2.mp3");
+loadSound("music3", "sounds/music_game3.mp3");
+/* loadSound("soundPunch", "sounds/sound_punch.mp3"); */
+loadSound("soundYouWin", "sounds/sound_youWin.mp3");
+loadSound("soundSword", "sounds/sound_sword.mp3");
+loadSound("sound_jump", "sounds/sound_jump.mp3");
+
 
 //RECOGEMOS LOS DATOS CON JQUERY
 $("#restart-lesson").click(function() {
@@ -65,6 +75,11 @@ $(document).ready(function() {
     // Obtener los datos de los personajes seleccionados y pasarlos al juego
     $("#create-game").click(function() {
         //RECOGER DATOS
+// Generar un número aleatorio entre 1 y 2
+    const randomNumber = Math.floor(Math.random() * 3) + 1;
+
+
+
         $("#battle").css("display", "flex");
         $("#reset_game").show();
         $("#come_back").show();
@@ -99,6 +114,15 @@ $(document).ready(function() {
             showMap(scaleMap);
             generateFloor();
             setGravity(1200) //Establecemos una gravedad, mientras mayor sea el numero, mayor sera la gravedad.
+
+            if (randomNumber == 1) {
+                play("music");
+            } else if (randomNumber == 2){
+                play("music2");
+            }
+            else {
+                play("music3");
+            }
 
             const fighter1 = makeFighter(200, 200, dataBody_fighter1, name_fighter1);
             const fighter2 = makeFighter(1000, 200, dataBody_fighter2, name_fighter2);
@@ -144,6 +168,7 @@ $(document).ready(function() {
 
 
             onKeyDown("enter", () => gameOver ? go("fight") : null) //Si el game esta acabado, al pusar enter vuelves a jugar
+
 
             //BARRAS DE VIDA JUGADOR 1 y 2
             if (count.timeLeft > 0) {

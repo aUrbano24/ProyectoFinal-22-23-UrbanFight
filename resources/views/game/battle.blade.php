@@ -45,6 +45,10 @@
     <div class="buttons-game">
         <button class="btn btn-primary" id="reset_game">@lang('public.Volveraempezar')</button>
         <a href="{{ route('battle') }}"><button class="btn btn-secondary" id="come_back">@lang('public.Volveratras')</button></a>
+        @role('admin')
+            <label id="labelHitbox" for="hitbox-checkbox">Mostrar hitbox:</label>
+            <input type="checkbox" id="hitbox-checkbox">
+        @endrole
     </div>
 </div>
 

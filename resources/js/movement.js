@@ -31,6 +31,7 @@ export function makeJump(fighter) {
         fighter.jump();
         fighter.use(sprite(fighter.sprites.jump));
         fighter.flipX = currentFlip;
+        play("sound_jump");
         fighter.play("jump");
         fighter.isCurrentlyJumping = true;
     }
@@ -61,40 +62,51 @@ export function resetAfterJump(fighter) {
 
 export function attack(fighter, excludedKeys, reach) {
     if (fighter.health === 0) {
-        return
+        return;
     }
-    //PARA QUE NO SE PUEDA ATACAR EN EL AIRE EL SIGUIENTE BUCLE:
 
     for (const key of excludedKeys) {
         if (isKeyDown(key)) {
-            return
+            return;
         }
     }
 
-    const currentFlip = fighter.flipX //Se guarda la direcion en la que esta el jugador antes del ataque
-    if (fighter.curAnim() !== "attack") { //Si la animacion actual no es ataque si hace lo siguiente:
-        fighter.use(sprite(fighter.sprites.attack)) //Si asigna la animacion de ataque
-        fighter.flipX = currentFlip //Se restaura el valor de flip al que habia antes
-        const slashX = fighter.pos.x + 15 //Hitbox de ataque
-        const slashXFlipped = fighter.pos.x - 315
-        const slashY = fighter.pos.y - 100 //Hitbox de ataque vertical
+    const hitboxCheckbox = document.getElementById("hitbox-checkbox");
+    let opacityHitbox;
+    if (hitboxCheckbox == null)
+        opacityHitbox = 0;
+    else
+        opacityHitbox = hitboxCheckbox.checked ? 1 : 0;
 
-        add([ //Se crea un rectangulo para realizar la hitbox
-        rect(reach,300),
-        area(),
-        pos(currentFlip ? slashXFlipped: slashX, slashY),
-        opacity(0), //ACTIVAR PARA VER LA HITBOX, DE MOMENTO LA DEJAMOS EN 0 PARA HACERLA INVISIBLE
-        fighter.id + "attackHitbox" //Se añade un identificador
-    ])
 
-    fighter.play("attack", { //Mostrar la animación de ataque
-        onEnd: () => { //con esto hacemos que se realizara cuando la funcion de ataque haya terminado
-            resetfighterToIdle(fighter) //Vuelve a el estado de inactivo
-            fighter.flipX = currentFlip //Hace que el jugador conserve su direcion de volteo
-        }
-    })
+    const currentFlip = fighter.flipX;
+
+    if (fighter.curAnim() !== "attack") {
+        fighter.use(sprite(fighter.sprites.attack));
+        fighter.flipX = currentFlip;
+
+        const slashX = fighter.pos.x + 15;
+        const slashXFlipped = fighter.pos.x - 315;
+        const slashY = fighter.pos.y - 100;
+
+        const attackHitbox = add([
+            rect(reach, 300),
+            area(),
+            pos(currentFlip ? slashXFlipped : slashX, slashY),
+            opacity(opacityHitbox),
+            fighter.id + "attackHitbox",
+        ]);
+
+        fighter.play("attack", {
+            onEnd: () => {
+                resetfighterToIdle(fighter);
+                fighter.flipX = currentFlip;
+                destroy(attackHitbox);
+            },
+        });
+    }
 }
-}
+
 
 
 
