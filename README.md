@@ -95,6 +95,7 @@ Proyecto final de grado 2022-2023
  | JS          |              | Otros      |
  
 <h2 align="center">📈📝Roadmap</h2>
+
 - [x] Versión 1.0
   - [x] Desarrollar Figma
   - [x] <s> Crear base de datos </s>
