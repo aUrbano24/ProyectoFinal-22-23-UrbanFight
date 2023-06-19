@@ -108,5 +108,5 @@ Proyecto final de grado 2022-2023
   - [ ] Característica F
 
 
-Video Demostrativo
+Video Demostrativo explicando la mayoria de las funciones de la web.
 https://youtu.be/hjQDniRGRbo
