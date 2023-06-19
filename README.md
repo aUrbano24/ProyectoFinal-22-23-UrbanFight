@@ -83,7 +83,7 @@ Proyecto final de grado 2022-2023
 	- [x] Comentar, documentar y explicar el código en inglés.
 	- [ ] Realizar la exposición en inglés. Si el alumn@ se cansa, siempre podrá expresarse en español, con la idea de volver a expresarse en inglés nada más tenga la oportunidad.
  		
- 📚Technologies Used
+ 📚#Technologies Used
 -----------------
  | **Fronted** | **Backend** | **Others** |
  |-------------|-------------|-------------|
